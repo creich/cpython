@@ -41,7 +41,7 @@ This tutorial focuses on the most common case, HTTP.
 For straightforward situations *urlopen* is very easy to use. But as soon as you
 encounter errors or non-trivial cases when opening HTTP URLs, you will need some
 understanding of the HyperText Transfer Protocol. The most comprehensive and
-authoritative reference to HTTP is :rfc:`2616`. This is a technical document and
+authoritative reference to HTTP is :rfc:`2616`. This is a technical document andmetadata
 not intended to be easy to read. This HOWTO aims to illustrate using *urllib*,
 with enough detail about HTTP to help you through. It is not intended to replace
 the :mod:`urllib.request` docs, but is supplementary to them.
@@ -97,7 +97,7 @@ schemes.  For example, you can make an FTP request like so::
 
 In the case of HTTP, there are two extra things that Request objects allow you
 to do: First, you can pass data to be sent to the server.  Second, you can pass
-extra information ("metadata") *about* the data or the about request itself, to
+extra information ("metadata") *about* the data or about the request itself, to
 the server - this information is sent as HTTP "headers".  Let's look at each of
 these in turn.
 
